@@ -1,7 +1,7 @@
 {
   "name": "Validate Moonlit pipeline",
   "description": "Parse and resolve the Moonlit pipeline on pull requests that change it.",
-  "iconName": "moonlit",
+  "iconName": "octicon moon",
   "categories": [
     "Continuous integration"
   ],
