@@ -1,7 +1,11 @@
 {
   "name": "Validate Moonlit pipeline",
   "description": "Parse and resolve the Moonlit pipeline on pull requests that change it.",
-  "iconName": "octicon moon",
-  "categories": ["Continuous integration"],
-  "filePatterns": ["release\\.ya?ml$"]
+  "iconName": "moonlit",
+  "categories": [
+    "Continuous integration"
+  ],
+  "filePatterns": [
+    "release\\.ya?ml$"
+  ]
 }

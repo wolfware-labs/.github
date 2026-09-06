@@ -1,7 +1,12 @@
 {
   "name": "Moonlit release",
   "description": "Run a Moonlit release pipeline on every push to the default branch.",
-  "iconName": "octicon moon",
-  "categories": ["Continuous integration", "Deployment"],
-  "filePatterns": ["release\\.ya?ml$"]
+  "iconName": "moonlit",
+  "categories": [
+    "Continuous integration",
+    "Deployment"
+  ],
+  "filePatterns": [
+    "release\\.ya?ml$"
+  ]
 }
