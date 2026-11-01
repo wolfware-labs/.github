@@ -24,10 +24,16 @@ or progress.
 
 The wordmark is white in `wolfware-logo-dark.svg` and navy (`#0d1e30`) in `wolfware-logo-light.svg`.
 The two files are otherwise identical: the fill is set once on the wordmark `<g>` element, so
-recoloring is a one-line change. The profile README selects between them with a `<picture>` element
-and `prefers-color-scheme`.
+recoloring is a one-line change. Use them with a `<picture>` element and `prefers-color-scheme`
+wherever the plain wordmark is needed.
 
-Referenced by absolute `raw.githubusercontent.com` URLs rather than relative paths, because the
+`wolfware-banner.svg` is the profile header. It draws the honeycomb from the landing site's hero
+(`src/lib/honeycomb.ts`) with the logo mark in the centre cell, and loops the same slow ripple
+(turned off under `prefers-reduced-motion`). The text is converted to Poppins outlines, so it renders
+the same without any fonts installed. The banner is dark in both GitHub themes, so it has no light
+variant.
+
+All assets are referenced by absolute `raw.githubusercontent.com` URLs rather than relative paths, because the
 profile README is rendered on the organization page rather than in this repository's own context.
 
 ## Adding default community health files

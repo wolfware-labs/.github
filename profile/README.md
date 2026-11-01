@@ -1,14 +1,8 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wolfware-labs/.github/main/profile/assets/wolfware-logo-dark.svg">
-  <img alt="Wolfware" src="https://raw.githubusercontent.com/wolfware-labs/.github/main/profile/assets/wolfware-logo-light.svg" width="380">
-</picture>
+<img alt="Wolfware. Software infrastructure, from the language up." src="https://raw.githubusercontent.com/wolfware-labs/.github/main/profile/assets/wolfware-banner.svg" width="100%">
 
-### Software infrastructure, from the language up.
-
-**We build the developer tools we kept wishing existed, in Rust and mostly in the open.
-They run on our servers or yours.**
+**We build the developer tools we kept wishing existed. They run on our servers or yours.**
 
 [Website](https://wolfware.dev) · [Blog](https://wolfware.dev/blog) · [Company](https://wolfware.dev/company) · [LinkedIn](https://www.linkedin.com/company/wolfware-tech)
 
