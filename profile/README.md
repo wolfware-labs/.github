@@ -5,9 +5,10 @@
   <img alt="Wolfware" src="https://raw.githubusercontent.com/wolfware-labs/.github/main/profile/assets/wolfware-logo-light.svg" width="380">
 </picture>
 
-### Crafting the future, one line of code at a time
+### Software infrastructure, from the language up.
 
-**Wolfware LLC builds developer tools that remove friction from everyday workflows.**
+**We build the developer tools we kept wishing existed, in Rust and mostly in the open.
+They run on our servers or yours.**
 
 [Website](https://wolfware.dev) · [Blog](https://wolfware.dev/blog) · [Company](https://wolfware.dev/company) · [LinkedIn](https://www.linkedin.com/company/wolfware-tech)
 
@@ -15,71 +16,76 @@
 
 ---
 
-## Our mission
+## What we make
 
-Make development less painful.
+Each product does one job and works on its own. Together they cover how software gets written,
+released, run and reported on.
 
-We build tools that handle the hard parts of the development lifecycle so teams can focus on
-writing great software. Reporting, authentication, API management, workflows, microfrontends.
-Practical tools for real problems, available as SaaS or on-premise.
-
-Every product here started as a real problem we hit in production. Rather than work around the
-same pain points indefinitely, we built the solutions we needed — and made them available to
-everyone.
-
-## Open source
-
-### Moonlit
-
-Build and release automation built on Rust and WebAssembly. Pipelines are declared in YAML and
-executed by a `wasmtime`-based host that runs sandboxed WebAssembly plugin components.
-
-Moonlit is dual-licensed under [Apache 2.0](https://github.com/wolfware-labs/moonlit/blob/main/LICENSE-APACHE)
-or [MIT](https://github.com/wolfware-labs/moonlit/blob/main/LICENSE-MIT) at your option — free to use,
-modify, and distribute, including in commercial and closed-source products.
-
-| Repository | What it is |
-| --- | --- |
-| [moonlit](https://github.com/wolfware-labs/moonlit) | The engine and `moonlit` CLI |
-| [moonlit-plugins](https://github.com/wolfware-labs/moonlit-plugins) | Official WebAssembly plugin components |
-| [moonlit-docs](https://github.com/wolfware-labs/moonlit-docs) | Documentation site |
-| [homebrew-tap](https://github.com/wolfware-labs/homebrew-tap) | Homebrew formulae for our tools |
-
-Learn more at [moonlitbuild.dev](https://moonlitbuild.dev), or install the CLI via shell script,
-Homebrew, Chocolatey, or npm.
-
-### Argone
-
-A thin Rust layer over Linux that runs WebAssembly components as first-class OS processes.
-Currently in early development and not yet public.
-
-## Products
+### Build
 
 | Product | | |
 | --- | --- | --- |
-| **[Golden Reports](https://goldenreports.dev)** | Reporting | Turns your data into HTML reports using templates and a GraphQL data layer. No custom DSL, no vendor lock-in. |
-| **[Morauth](https://morauth.dev)** | Security | Authentication and authorization without locking you into a third-party vendor. Drop it in, own your data. |
-| **[Doodle](https://doodlehub.dev)** | API Management | One gateway for all your APIs. Route, secure, and monitor them without the enterprise price tag. |
-| **[BunnyBox](https://bunnybox.dev)** | Microfrontends | Build, publish, and compose frontend modules independently. Kubernetes-style orchestration for your UI layer. |
-| **[Vana](https://workvana.dev)** | Workflows | A workflow engine for developers. Define tasks, wire up triggers, and stop writing the same glue code for every project. |
+| **[Mora](https://github.com/wolfware-labs/mora-lang)** | Language | Reads like C#, manages memory without a garbage collector, compiles to one native executable. |
+| **[Artic](https://artic.rs)** | UI framework | Cross-platform UI for Rust: XAML views and one GPU renderer for desktop and mobile. |
+| **Doodle** | UI components | A component library on top of Artic. Open source, with a Pro edition for advanced controls. |
+| **[Pavia](https://github.com/wolfware-labs/pavia)** | Realtime RPC | Typed real-time RPC and messaging over WebTransport and WebSocket. |
 
-Every product runs as SaaS or fully on-premise.
+### Ship
+
+| Product | | |
+| --- | --- | --- |
+| **[Moonlit](https://moonlit.rs)** | Release automation | Build and release pipelines in YAML, with plugins that run as sandboxed WebAssembly. |
+
+### Run
+
+| Product | | |
+| --- | --- | --- |
+| **BunnyBox** | API gateway | Self-hosted API gateway and API management in a single binary. |
+| **Vana** | Workflow automation | Let AI write your automations. Vana makes them safe to run. |
+| **Argone** | OS / runtime | A thin layer over Linux that runs WebAssembly components as processes. |
+
+### Report
+
+| Product | | |
+| --- | --- | --- |
+| **Golden Reports** | Reporting | One report, every output: native-looking embeds, pixel-perfect PDF, Excel and labels. |
+
+## How we license
+
+- **Tools are fully open.** Languages, frameworks and build tooling are licensed under MIT or
+  Apache-2.0. Use them anywhere, no strings.
+- **Open source + Pro.** Doodle, BunnyBox, Vana and Golden Reports work on their own with the
+  open-source edition. Pro adds advanced features for teams that want them.
+- **SaaS or self-hosted.** Every product runs on your own infrastructure. We can host it for you
+  if you'd rather not.
+
+## Repositories
+
+| Repository | What it is |
+| --- | --- |
+| [moonlit](https://github.com/wolfware-labs/moonlit) | The Moonlit engine and `moonlit` CLI |
+| [moonlit-plugins](https://github.com/wolfware-labs/moonlit-plugins) | Official WebAssembly plugin components |
+| [moonlit-workflows](https://github.com/wolfware-labs/moonlit-workflows) | Reusable GitHub Actions workflows for Moonlit release pipelines |
+| [setup-moonlit](https://github.com/wolfware-labs/setup-moonlit) | Install the Moonlit CLI in a GitHub Actions workflow |
+| [mora-lang](https://github.com/wolfware-labs/mora-lang) | The Mora language and toolchain |
+| [artic](https://github.com/wolfware-labs/artic) | The Artic UI framework |
+| [pavia](https://github.com/wolfware-labs/pavia) | Pavia protocol, Rust server and generated clients |
+| [homebrew-tap](https://github.com/wolfware-labs/homebrew-tap) | Homebrew formulae for our tools |
+| [cel-rust](https://github.com/wolfware-labs/cel-rust) | Common Expression Language interpreter in Rust |
 
 ## Who we are
 
 Wolfware is a husband-and-wife team based in Jackson, Tennessee. Small on purpose: fewer layers,
-faster decisions, and a personal commitment to every product we ship.
-
-We care deeply about the quality of our work and the trust our customers place in us. We're in
-this for the long term, building a company we're proud of, one product at a time.
+faster decisions, and a personal commitment to every product we ship. We donate 20% of net
+profit; [here's why](https://wolfware.dev/blog/company-donations).
 
 ## Get in touch
 
-Try our tools, open an issue, or share your feedback — we read all of it.
+Try our tools, open an issue, or share your feedback. We read all of it.
 
-- **Web** — [wolfware.dev](https://wolfware.dev)
-- **Blog** — [wolfware.dev/blog](https://wolfware.dev/blog) for product updates and engineering notes
-- **LinkedIn** — [@wolfware-tech](https://www.linkedin.com/company/wolfware-tech)
+- **Web**: [wolfware.dev](https://wolfware.dev)
+- **Blog**: [wolfware.dev/blog](https://wolfware.dev/blog) for product updates and engineering notes
+- **LinkedIn**: [@wolfware-tech](https://www.linkedin.com/company/wolfware-tech)
 
 <div align="center">
 
