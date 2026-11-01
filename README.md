@@ -33,6 +33,14 @@ wherever the plain wordmark is needed.
 the same without any fonts installed. The banner is dark in both GitHub themes, so it has no light
 variant.
 
+Rebuild it with [`scripts/banner.mjs`](scripts/banner.mjs) after changing the honeycomb, the logo or
+the tagline. It reads them from a local checkout of the landing site:
+
+```sh
+cd scripts && npm install
+node banner.mjs ../../landing
+```
+
 All assets are referenced by absolute `raw.githubusercontent.com` URLs rather than relative paths, because the
 profile README is rendered on the organization page rather than in this repository's own context.
 
