@@ -19,10 +19,10 @@ released, run and reported on.
 
 | Product | | |
 | --- | --- | --- |
-| **[Mora](https://github.com/wolfware-labs/mora-lang)** | Language | Reads like C#, manages memory without a garbage collector, compiles to one native executable. |
+| **[Mora](https://moralang.org)** | Language | Reads like C#, manages memory without a garbage collector, compiles to one native executable. |
 | **[Artic](https://artic.rs)** | UI framework | Cross-platform UI for Rust: XAML views and one GPU renderer for desktop and mobile. |
 | **Doodle** | UI components | A component library on top of Artic. Open source, with a Pro edition for advanced controls. |
-| **[Pavia](https://github.com/wolfware-labs/pavia)** | Realtime RPC | Typed real-time RPC and messaging over WebTransport and WebSocket. |
+| **[Pavia](https://pavia.sh)** | Realtime RPC | Typed real-time RPC and messaging over WebTransport and WebSocket. |
 
 ### Ship
 
