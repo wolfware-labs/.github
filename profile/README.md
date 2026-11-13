@@ -2,9 +2,9 @@
 
 <img alt="Wolfware. Software infrastructure, from the language up." src="https://raw.githubusercontent.com/wolfware-labs/.github/main/profile/assets/wolfware-banner.svg" width="100%">
 
-**We build the developer tools we kept wishing existed. They run on our servers or yours.**
+**We build the developer tools we kept wishing existed, in Rust and mostly in the open. They run on our servers or yours.**
 
-[Website](https://wolfware.dev) · [Blog](https://wolfware.dev/blog) · [Company](https://wolfware.dev/company) · [LinkedIn](https://www.linkedin.com/company/wolfware-tech)
+[Website](https://wolfware.dev) · [Blog](https://wolfware.dev/blog) · [Company](https://wolfware.dev/company) · [Wolfware Business](https://business.wolfware.dev) · [LinkedIn](https://www.linkedin.com/company/wolfware-tech)
 
 </div>
 
@@ -34,22 +34,22 @@ released, run and reported on.
 
 | Product | | |
 | --- | --- | --- |
-| **BunnyBox** | API gateway | Self-hosted API gateway and API management in a single binary. |
-| **Vana** | Workflow automation | Let AI write your automations. Vana makes them safe to run. |
+| **[BunnyBox](https://bunnybox.dev)** | API gateway | Self-hosted API gateway and API management in a single binary. |
+| **[Vana](https://workvana.dev)** | Workflow automation | Let AI write your automations. Vana makes them safe to run. |
 | **Argone** | OS / runtime | A thin layer over Linux that runs WebAssembly components as processes. |
 
 ### Report
 
 | Product | | |
 | --- | --- | --- |
-| **Golden Reports** | Reporting | One report, every output: native-looking embeds, pixel-perfect PDF, Excel and labels. |
+| **[Golden Reports](https://goldenreports.dev)** | Reporting | One report, every output: native-looking embeds, pixel-perfect PDF, Excel and labels. |
 
 ## How we license
 
-- **Tools are fully open.** Languages, frameworks and build tooling are licensed under MIT or
-  Apache-2.0. Use them anywhere, no strings.
-- **Open source + Pro.** Doodle, BunnyBox, Vana and Golden Reports work on their own with the
-  open-source edition. Pro adds advanced features for teams that want them.
+- **Tools are fully open.** Languages, frameworks and build tooling are permissively licensed.
+  Use them anywhere, no strings. Each repository states its license.
+- **Free to use, Pro when you need it.** Every product works on its own with the open-source
+  edition. Pro adds advanced features for teams that want them.
 - **SaaS or self-hosted.** Every product runs on your own infrastructure. We can host it for you
   if you'd rather not.
 
@@ -70,8 +70,10 @@ released, run and reported on.
 ## Who we are
 
 Wolfware is a husband-and-wife team based in Jackson, Tennessee. Small on purpose: fewer layers,
-faster decisions, and a personal commitment to every product we ship. We donate 20% of net
-profit; [here's why](https://wolfware.dev/blog/company-donations).
+faster decisions, and a personal commitment to every product we ship.
+
+Our other division, [Wolfware Business](https://business.wolfware.dev), makes software built
+around how your business works.
 
 ## Get in touch
 
@@ -79,6 +81,7 @@ Try our tools, open an issue, or share your feedback. We read all of it.
 
 - **Web**: [wolfware.dev](https://wolfware.dev)
 - **Blog**: [wolfware.dev/blog](https://wolfware.dev/blog) for product updates and engineering notes
+- **Newsletter**: [subscribe on wolfware.dev](https://wolfware.dev/#newsletter) for new posts and product updates
 - **LinkedIn**: [@wolfware-tech](https://www.linkedin.com/company/wolfware-tech)
 
 <div align="center">

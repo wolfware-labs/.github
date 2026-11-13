@@ -109,7 +109,7 @@ ${mark}
 ${wordmark}
 ${text(semibold, 'Software infrastructure,', 64, 206, 56, 'fill="#ffffff"')}
 ${text(semibold, 'from the language up.', 64, 274, 56, `fill="${CYAN}"`)}
-${text(light, 'Developer tools in Rust, built in the open.', 64, 330, 22, 'fill="#ffffff" fill-opacity="0.7"')}
+${text(light, 'Developer tools in Rust, mostly in the open.', 64, 330, 22, 'fill="#ffffff" fill-opacity="0.7"')}
 </svg>
 `
 
