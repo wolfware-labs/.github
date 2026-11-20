@@ -21,6 +21,7 @@ released, run and reported on.
 | --- | --- | --- |
 | **[Mora](https://moralang.org)** | Language | Reads like C#, manages memory without a garbage collector, compiles to one native executable. |
 | **[Artic](https://artic.rs)** | UI framework | Cross-platform UI for Rust: XAML views and one GPU renderer for desktop and mobile. |
+| **[Argone](https://argone.dev)** | UI framework | One UI framework for the web, desktop and mobile, with native speed. |
 | **Doodle** | UI components | A component library on top of Artic. Open source, with a Pro edition for advanced controls. |
 | **[Pavia](https://pavia.sh)** | Realtime RPC | Typed real-time RPC and messaging over WebTransport and WebSocket. |
 
@@ -36,7 +37,6 @@ released, run and reported on.
 | --- | --- | --- |
 | **[BunnyBox](https://bunnybox.dev)** | API gateway | Self-hosted API gateway and API management in a single binary. |
 | **[Vana](https://workvana.dev)** | Workflow automation | Let AI write your automations. Vana makes them safe to run. |
-| **Argone** | OS / runtime | A thin layer over Linux that runs WebAssembly components as processes. |
 
 ### Report
 
