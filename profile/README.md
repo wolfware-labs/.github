@@ -36,7 +36,7 @@ released, run and reported on.
 | Product | | |
 | --- | --- | --- |
 | **[BunnyBox](https://bunnybox.dev)** | API gateway | Self-hosted API gateway and API management in a single binary. |
-| **[Vana](https://workvana.dev)** | Workflow automation | Let AI write your automations. Vana makes them safe to run. |
+| **[Vana](https://workvana.dev)** | AI platform | Your company's AI platform, self-hosted: any model, tools in any language, and knowledge that stays private. |
 
 ### Report
 
