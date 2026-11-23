@@ -22,7 +22,7 @@ released, run and reported on.
 | **[Mora](https://moralang.org)** | Language | Reads like C#, manages memory without a garbage collector, compiles to one native executable. |
 | **[Artic](https://artic.rs)** | UI framework | Cross-platform UI for Rust: XAML views and one GPU renderer for desktop and mobile. |
 | **[Argone](https://argone.dev)** | UI framework | One UI framework for the web, desktop and mobile, with native speed. |
-| **Doodle** | UI components | A component library on top of Artic. Open source, with a Pro edition for advanced controls. |
+| **[Doodle](https://doodleui.dev)** | UI controls | Built for coding agents from the ground up, with one vocabulary in every framework. Open source, with a Pro edition. |
 | **[Pavia](https://pavia.sh)** | Realtime RPC | Typed real-time RPC and messaging over WebTransport and WebSocket. |
 
 ### Ship
